@@ -10,10 +10,10 @@ import SwiftUI
 struct WatermarkView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 2) {
-            Text("Activate Mac")
+            Text("Activate macOS")
                 .font(.system(size: 20, weight: .bold))
                 .foregroundColor(.white.opacity(0.6))
-            Text("Go to Settings to activate Mac")
+            Text("Go to Settings to activate macOS")
                 .font(.system(size: 14, weight: .regular))
                 .foregroundColor(.white.opacity(0.6))
         }
